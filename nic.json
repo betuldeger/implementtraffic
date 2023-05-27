@@ -1,0 +1,54 @@
+{
+    "name": "az104-06-nic0",
+    "id": "/subscriptions/d8a15189-f429-45c8-be19-fc4ea6398235/resourceGroups/az104-06-rg1/providers/Microsoft.Network/networkInterfaces/az104-06-nic0",
+    "etag": "W/\"41b5937a-3a1c-46d9-b226-41d06d8df665\"",
+    "tags": {},
+    "properties": {
+        "provisioningState": "Succeeded",
+        "resourceGuid": "c2594f0b-eeb8-46f0-bc85-cdfbd59f3bd3",
+        "ipConfigurations": [
+            {
+                "name": "ipconfig1",
+                "id": "/subscriptions/d8a15189-f429-45c8-be19-fc4ea6398235/resourceGroups/az104-06-rg1/providers/Microsoft.Network/networkInterfaces/az104-06-nic0/ipConfigurations/ipconfig1",
+                "etag": "W/\"41b5937a-3a1c-46d9-b226-41d06d8df665\"",
+                "type": "Microsoft.Network/networkInterfaces/ipConfigurations",
+                "properties": {
+                    "provisioningState": "Succeeded",
+                    "privateIPAddress": "10.60.0.4",
+                    "privateIPAllocationMethod": "Dynamic",
+                    "subnet": {
+                        "id": "/subscriptions/d8a15189-f429-45c8-be19-fc4ea6398235/resourceGroups/az104-06-rg1/providers/Microsoft.Network/virtualNetworks/az104-06-vnet01/subnets/subnet0"
+                    },
+                    "primary": true,
+                    "privateIPAddressVersion": "IPv4",
+                    "loadBalancerBackendAddressPools": [
+                        {
+                            "id": "/subscriptions/d8a15189-f429-45c8-be19-fc4ea6398235/resourceGroups/az104-06-rg4/providers/Microsoft.Network/loadBalancers/az104-06-lb4/backendAddressPools/az104-06-lb4-be1"
+                        }
+                    ]
+                }
+            }
+        ],
+        "dnsSettings": {
+            "dnsServers": [],
+            "appliedDnsServers": []
+        },
+        "macAddress": "00-22-48-33-02-94",
+        "enableAcceleratedNetworking": false,
+        "vnetEncryptionSupported": false,
+        "enableIPForwarding": true,
+        "networkSecurityGroup": {
+            "id": "/subscriptions/d8a15189-f429-45c8-be19-fc4ea6398235/resourceGroups/az104-06-rg1/providers/Microsoft.Network/networkSecurityGroups/az104-06-nsg01"
+        },
+        "primary": true,
+        "virtualMachine": {
+            "id": "/subscriptions/d8a15189-f429-45c8-be19-fc4ea6398235/resourceGroups/az104-06-rg1/providers/Microsoft.Compute/virtualMachines/az104-06-vm0"
+        },
+        "hostedWorkloads": [],
+        "tapConfigurations": [],
+        "nicType": "Standard"
+    },
+    "type": "Microsoft.Network/networkInterfaces",
+    "location": "eastus",
+    "kind": "Regular"
+}
